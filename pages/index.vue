@@ -25,19 +25,14 @@
       </div>
       <Screen />
         <button @click="showLazy = !showLazy">Показать</button>
-        <ScreenLazy v-if="showLazy"/>
+        <LazyScreenLazy v-if="showLazy"/>
+<!--        <component :is="ScreenLazy" v-if="showLazy"/>-->
     </div>
   </div>
 </template>
 
 <script>
-import Screen from "~/components/Screen";
-
 export default {
-    components: {
-        ScreenLazy: () => import(/* webpackPrefetch: true */ '~/components/ScreenLazy'),
-        Screen
-    },
     data() {
         return {
             showLazy: false,
