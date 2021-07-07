@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"generate-test\u002F_nuxt\u002Fstatic\u002F1625685848",layout:"default",error:a,serverRendered:true,routePath:"\u002F",config:{_app:{basePath:"generate-test\u002F",assetsPath:"generate-test\u002F_nuxt\u002F",cdnURL:a}}}}(null));
